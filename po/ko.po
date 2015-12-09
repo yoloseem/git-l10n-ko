@@ -5,7 +5,10 @@
 #
 # 용어:
 #
+#  branch	브랜치
 #  commit	커밋
+#  history	내역, 커밋 내역
+#  log	기록
 #  merge	병합
 #  repo	저장소
 #
@@ -14,7 +17,7 @@ msgstr ""
 "Project-Id-Version: git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2015-09-15 06:45+0800\n"
-"PO-Revision-Date: 2015-12-09 21:37+0900\n"
+"PO-Revision-Date: 2015-12-09 22:24+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: Changwoo Ryu <cwryu@debian.org>\n"
 "Language: ko\n"
@@ -52,7 +55,7 @@ msgstr ""
 
 #: archive.c:13
 msgid "git archive --list"
-msgstr ""
+msgstr "git archive --list"
 
 #: archive.c:14
 msgid ""
@@ -903,24 +906,24 @@ msgstr ""
 
 #: parse-options.c:563
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: parse-options.c:581
 #, c-format
 msgid "usage: %s"
-msgstr ""
+msgstr "사용법: %s"
 
 #. TRANSLATORS: the colon here should align with the
 #. one in "usage: %s" translation
 #: parse-options.c:585
 #, c-format
 msgid "   or: %s"
-msgstr ""
+msgstr " 또는: %s"
 
 #: parse-options.c:588
 #, c-format
 msgid "    %s"
-msgstr ""
+msgstr "    %s"
 
 #: parse-options.c:622
 msgid "-NUM"
@@ -10385,7 +10388,7 @@ msgstr "바뀐 사항에 대한 작업 (참고: git help everyday)"
 
 #: common-cmds.h:11
 msgid "examine the history and state (see also: git help revisions)"
-msgstr "기록과 상태 보기 (참고: git help revisions)"
+msgstr "커밋 내역과 상태 보기 (참고: git help revisions)"
 
 #: common-cmds.h:12
 msgid "grow, mark and tweak your common history"
@@ -10397,19 +10400,19 @@ msgstr "협동 작업 (참고: git help workflows)"
 
 #: common-cmds.h:17
 msgid "Add file contents to the index"
-msgstr ""
+msgstr "파일 내용을 인덱스에 추가합니다"
 
 #: common-cmds.h:18
 msgid "Use binary search to find the commit that introduced a bug"
-msgstr ""
+msgstr "이진 탐색으로 버그를 만들어낸 커밋을 찾습니다"
 
 #: common-cmds.h:19
 msgid "List, create, or delete branches"
-msgstr ""
+msgstr "브랜치를 만들거나, 삭제하거나, 목록을 출력합니다"
 
 #: common-cmds.h:20
 msgid "Switch branches or restore working tree files"
-msgstr ""
+msgstr "브랜치를 전환하거나 작업 파일을 복구합니다"
 
 #: common-cmds.h:21
 msgid "Clone a repository into a new directory"
@@ -10425,28 +10428,27 @@ msgstr "커밋과 커밋 사이, 커밋과 작업 내용 사이 등의 바뀐 �
 
 #: common-cmds.h:24
 msgid "Download objects and refs from another repository"
-msgstr ""
+msgstr "다른 저장소에서 오브젝트와 레퍼런스를 다운로드합니다"
 
 #: common-cmds.h:25
 msgid "Print lines matching a pattern"
-msgstr ""
+msgstr "패턴과 일치하는 줄을 표시합니다"
 
 #: common-cmds.h:26
-#, fuzzy
 msgid "Create an empty Git repository or reinitialize an existing one"
 msgstr "빈 깃 저장소를 만들거나 기존 저장소를 다시 초기화합니다"
 
 #: common-cmds.h:27
 msgid "Show commit logs"
-msgstr ""
+msgstr "커밋 기록을 표시합니다"
 
 #: common-cmds.h:28
 msgid "Join two or more development histories together"
-msgstr ""
+msgstr "여러 개의 개발 내역을 하나로 합칩니다"
 
 #: common-cmds.h:29
 msgid "Move or rename a file, a directory, or a symlink"
-msgstr ""
+msgstr "파일, 디렉터리, 심볼릭 링크를 옮기거나 이름을 바꿉니다"
 
 #: common-cmds.h:30
 msgid "Fetch from and integrate with another repository or a local branch"
